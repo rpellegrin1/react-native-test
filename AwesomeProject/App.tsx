@@ -20,7 +20,6 @@ function HomeScreen({ navigation }) {
         title="Go to Screen 2"
         onPress={() => {
           setData({ screen: 'Screen 2', message: 'Hello from HomeScreen' });
-          navigation.navigate('Screen2');
         }}
       />
     </View>
